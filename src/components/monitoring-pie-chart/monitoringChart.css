@@ -1,0 +1,59 @@
+.monitoring_chart_wrapper {
+    margin-left: 10px;
+    height: 550px;
+    width: 437px;
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(63, 63, 68, 0.15);
+    border-radius: 3px;
+}
+
+.monitoring_chart_header {
+    margin: 20px 16px;
+    max-width: 430;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e4e7eb;
+}
+
+.monitoring_chart_header_text {
+    margin: 0 0 25px 25px;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.05px;
+    color: #333333;
+}
+
+.monitoring_chart_header_icon {
+    margin: 0 25px 17px 0;
+    height: 16px;
+    width: 22px;
+    color: #999999;
+}
+
+.legend_value {
+    position: relative;
+    bottom: 175px;
+    right: 15px;
+    margin: 0;
+    width: 470px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.legend_item_value {
+    font-family: Source Sans Pro;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #333333;
+}
+
+.legend_red_value,
+.legend_yellow_value {
+    position: relative;
+    left: 35px;
+}

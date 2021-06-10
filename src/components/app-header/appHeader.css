@@ -1,0 +1,134 @@
+* {
+    margin: 0 auto;
+}
+
+.app_header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    background-color: #04183b;
+}
+
+.logo {
+    margin: 0 0 0 40px;
+    display: flex;
+    align-items: center;
+}
+
+.logo_icon {
+    position: relative;
+    top: 2px;
+}
+
+.logo_icon img {
+    padding: 0 0 0 2px;
+}
+
+.round {
+    width: 23.08px;
+    height: 23.25px;
+}
+
+.first {
+    position: relative;
+    bottom: 5px;
+    width: 4.2px;
+    height: 12.6px;
+}
+.second {
+    position: relative;
+    bottom: 3px;
+    width: 4.4px;
+    height: 16.3px;
+}
+.third {
+    position: relative;
+    bottom: 1px;
+    width: 5px;
+    height: 20.38px;
+}
+
+.logo_text {
+    margin: 0 0 0 10px;
+}
+
+.logo_text img {
+    padding: 0 0 0 1.5px;
+}
+.o {
+    height: 12px;
+    width: 13px;
+}
+.n {
+    height: 12.3px;
+    width: 11.5px;
+}
+.l {
+    height: 19px;
+    width: 6.5px;
+}
+.i {
+    height: 18.2px;
+    width: 6px;
+}
+.e {
+    height: 12.7px;
+    width: 12px;
+}
+.sh {
+    height: 12px;
+    width: 15.2px;
+}
+.t {
+    height: 12px;
+    width: 10.9px;
+}
+.a {
+    height: 12.54px;
+    width: 9.5px;
+}
+.b {
+    height: 19.3px;
+    width: 12.5px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    right: 390px;
+    min-width: 620px;
+}
+
+.navbar li {
+    flex: 1 auto;
+    list-style-type: none;
+}
+
+.navbar span {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    opacity: 0.7;
+}
+
+a {
+    text-decoration: none;
+}
+
+.tools {
+    margin: 0 40px 0 0;
+    display: flex;
+    min-width: 120px;
+    justify-content: space-between;
+}
+
+.tools img {
+    cursor: pointer;
+}

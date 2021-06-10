@@ -1,0 +1,10 @@
+body {
+    background: #eff3fe;
+}
+
+.chart_wrapper {
+    display: flex;
+    margin: 24px 30px;
+    justify-content: space-between;
+    align-items: center;
+}

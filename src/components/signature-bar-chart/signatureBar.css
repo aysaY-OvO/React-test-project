@@ -1,0 +1,126 @@
+.signature_bar_chart_wrapper {
+    width: 1215px;
+    margin-right: 10px;
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(63, 63, 68, 0.15);
+    border-radius: 3px;
+}
+
+.signature_bar_chart_header {
+    margin: 20px 16px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e4e7eb;
+}
+
+.signature_bar_chart_header_text {
+    margin: 0 0 25px 25px;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.05px;
+    color: #333333;
+}
+
+.signature_bar_chart_header_icon {
+    margin: 0 25px 17px 0;
+    height: 16px;
+    width: 22px;
+    color: #999999;
+}
+
+.chart {
+    position: relative;
+    display: flex;
+    width: 1500px;
+    height: 470px;
+}
+
+.bar_label {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.chart_label {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 350px;
+}
+
+.red_label {
+    width: 55px;
+    position: absolute;
+    top: 65px;
+    right: 480px;
+}
+.blue_label {
+    width: 55px;
+    position: absolute;
+    top: 157px;
+    right: 420px;
+}
+.yellow_label {
+    width: 55px;
+    position: absolute;
+    top: 250px;
+    right: 66px;
+}
+.green_label {
+    width: 55px;
+    position: absolute;
+    top: 343px;
+    right: 175px;
+}
+
+.chart_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.legend {
+    height: 200px;
+    position: relative;
+    bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.signature_bar_legend_item {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 45px;
+}
+
+.signature_bar_chart_legend_value {
+    margin-left: 0;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #333333;
+    align-self: flex-start;
+}
+
+.signature_bar_chart_legend_desc {
+    margin-left: 0;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.15px;
+    color: #333333;
+}
