@@ -41,7 +41,7 @@ export default class MonitoringChart extends Component {
         return (
             <div className="monitoring_chart_wrapper">
                 <div className="monitoring_chart_header">
-                    <span className="monitoring_chart_header_text">Мониторинг</span>
+                    <span className="monitoring_chart_header_text">Диаграмма 1</span>
                     <img
                         className="monitoring_chart_header_icon"
                         src="./icons/badges/reboot.png"

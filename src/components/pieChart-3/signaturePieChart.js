@@ -42,9 +42,7 @@ export default class SignaturePieChart extends Component {
         return (
             <div className="signature_pie_chart_wrapper">
                 <div className="siganture_pie_chart_header">
-                    <span className="siganture_pie_chart_header_text">
-                        Подписи от двери до двери
-                    </span>
+                    <span className="siganture_pie_chart_header_text">Диаграмма 3</span>
                     <img
                         className="siganture_pie_chart_header_icon"
                         src="./icons/badges/reboot.png"
@@ -123,19 +121,15 @@ export default class SignaturePieChart extends Component {
                     <div className="pie_legend">
                         <div className="signature_pie_legend_item">
                             <span className="signature_pie_chart_legend_value">450 000</span>
-                            <span className="signature_pie_chart_legend_desc">
-                                Целевой показатель
-                            </span>
+                            <span className="signature_pie_chart_legend_desc">Показатель 1</span>
                         </div>
                         <div className="signature_pie_legend_item">
                             <span className="signature_pie_chart_legend_value">327 176</span>
-                            <span className="signature_pie_chart_legend_desc">Собрано всего</span>
+                            <span className="signature_pie_chart_legend_desc">Показатель 2</span>
                         </div>
                         <div className="signature_pie_legend_item">
                             <span className="signature_pie_chart_legend_value">73%</span>
-                            <span className="signature_pie_chart_legend_desc">
-                                Выполнение целевого показателя
-                            </span>
+                            <span className="signature_pie_chart_legend_desc">Показатель 3</span>
                         </div>
                     </div>
                 </div>

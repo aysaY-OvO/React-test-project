@@ -56,7 +56,7 @@ export default class SocialMediaChart extends Component {
         return (
             <div className="social_media_wrapper">
                 <div className="social_media_header">
-                    <span className="social_media_header_text">Сигналы соцмедиа за неделю</span>
+                    <span className="social_media_header_text">Диаграмма 2</span>
                     <img
                         className="social_media_header_icon"
                         src="./icons/badges/reboot.png"
@@ -138,7 +138,7 @@ export default class SocialMediaChart extends Component {
                         },
                     ]}
                     tooltip={(input) => {
-                        if (input.point.serieId === 'Репутационные риски') {
+                        if (input.point.serieId === 'Показатель 1') {
                             return (
                                 <div className="tooltip">
                                     <span className="tooltip_date">{input.point.data.x}</span>
@@ -149,7 +149,7 @@ export default class SocialMediaChart extends Component {
                                 </div>
                             );
                         }
-                        if (input.point.serieId === 'Потенциальные риски') {
+                        if (input.point.serieId === 'Показатель 2') {
                             return (
                                 <div className="tooltip">
                                     <span className="tooltip_date">{input.point.data.x}</span>
@@ -160,7 +160,7 @@ export default class SocialMediaChart extends Component {
                                 </div>
                             );
                         }
-                        if (input.point.serieId === 'Рисков нет') {
+                        if (input.point.serieId === 'Показатель 3') {
                             return (
                                 <div className="tooltip">
                                     <span className="tooltip_date">{input.point.data.x}</span>

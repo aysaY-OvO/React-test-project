@@ -21,6 +21,7 @@
     height: 200px;
     position: relative;
     top: 60px;
+    right: 25px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -89,16 +90,16 @@
 
 .pie_chart_legend_red_value {
     position: absolute;
-    left: 45px;
+    left: 70px;
     bottom: 25px;
 }
 .pie_chart_legend_yellow_value {
     position: absolute;
-    left: 165px;
+    left: 185px;
     bottom: 25px;
 }
 .pie_chart_legend_blue_value {
     position: absolute;
-    left: 310px;
+    left: 305px;
     bottom: 25px;
 }

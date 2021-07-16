@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import AppHeader from '../app-header';
 import CardList from '../card-list';
-import SocialMediaChart from '../social-media-chart';
-import MonitoringChart from '../monitoring-pie-chart';
-import SignatureBarChart from '../signature-bar-chart';
-import SignaturePieChart from '../signature-pie-chart';
+import SocialMediaChart from '../lineChart-2';
+import MonitoringChart from '../pieChart-1';
+import SignatureBarChart from '../barChart-4';
+import SignaturePieChart from '../pieChart-3';
 
 import './app.css';
 

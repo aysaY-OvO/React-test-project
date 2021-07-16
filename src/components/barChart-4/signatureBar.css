@@ -34,7 +34,7 @@
 .chart {
     position: relative;
     display: flex;
-    width: 1500px;
+    width: 1000px;
     height: 470px;
 }
 
@@ -54,25 +54,25 @@
     max-height: 350px;
 }
 
-.red_label {
+.green_label {
     width: 55px;
     position: absolute;
     top: 65px;
     right: 480px;
 }
-.blue_label {
+.yellow_label {
     width: 55px;
     position: absolute;
     top: 157px;
     right: 420px;
 }
-.yellow_label {
+.blue_label {
     width: 55px;
     position: absolute;
     top: 250px;
     right: 66px;
 }
-.green_label {
+.red_label {
     width: 55px;
     position: absolute;
     top: 343px;
@@ -86,6 +86,7 @@
 
 .legend {
     height: 200px;
+    width: 110px;
     position: relative;
     bottom: 80px;
     display: flex;

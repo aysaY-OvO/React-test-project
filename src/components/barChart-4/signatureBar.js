@@ -40,10 +40,10 @@ export default class SignatureBarChart extends Component {
         const { chart } = this.state;
 
         const colors = {
-            Невалидный: '#F96708',
-            Валидный: '#0B98FA',
-            'Собрано всего': '#F7D154',
-            'Целевые показатели': '#65CD99',
+            'Показатель 1': '#F96708',
+            'Показатель 2': '#0B98FA',
+            'Показатель 3': '#F7D154',
+            'Показатель 4': '#65CD99',
         };
         const getColor = (bar) => colors[bar.id];
 
@@ -64,7 +64,7 @@ export default class SignatureBarChart extends Component {
         return (
             <div className="signature_bar_chart_wrapper">
                 <div className="signature_bar_chart_header">
-                    <span className="signature_bar_chart_header_text">«Золотые» подписи</span>
+                    <span className="signature_bar_chart_header_text">Диаграмма 4</span>
                     <img
                         className="signature_bar_chart_header_icon"
                         src="./icons/badges/reboot.png"
@@ -76,8 +76,8 @@ export default class SignatureBarChart extends Component {
                         <ResponsiveBar
                             data={chart}
                             theme={theme}
-                            margin={{ top: 10, right: 20, bottom: 50, left: 120 }}
-                            keys={['Невалидный', 'Валидный', 'Собрано всего', 'Целевые показатели']}
+                            margin={{ top: 10, right: 20, bottom: 50, left: 100 }}
+                            keys={['Показатель 1', 'Показатель 2', 'Показатель 3', 'Показатель 4']}
                             indexBy="name"
                             layout="horizontal"
                             maxValue={200000}
@@ -107,28 +107,24 @@ export default class SignatureBarChart extends Component {
                             isInteractive={false}
                         />
                         <div className="chart_label">
-                            <span className="bar_label red_label">80 142</span>
-                            <span className="bar_label blue_label">93 828</span>
-                            <span className="bar_label yellow_label">173 970</span>
-                            <span className="bar_label green_label">150 000</span>
+                            <span className="bar_label green_label">80 142</span>
+                            <span className="bar_label yellow_label">93 828</span>
+                            <span className="bar_label blue_label">173 970</span>
+                            <span className="bar_label red_label">150 000</span>
                         </div>
                     </div>
                     <div className="legend">
                         <div className="signature_bar_legend_item">
                             <span className="signature_bar_chart_legend_value">450 000</span>
-                            <span className="signature_bar_chart_legend_desc">
-                                Целевой показатель
-                            </span>
+                            <span className="signature_bar_chart_legend_desc">Показатель 1</span>
                         </div>
                         <div className="signature_bar_legend_item">
                             <span className="signature_bar_chart_legend_value">327 176</span>
-                            <span className="signature_bar_chart_legend_desc">Собрано всего</span>
+                            <span className="signature_bar_chart_legend_desc">Показатель 2</span>
                         </div>
                         <div className="signature_bar_legend_item">
                             <span className="signature_bar_chart_legend_value">73%</span>
-                            <span className="signature_bar_chart_legend_desc">
-                                Выполнение целевого показателя
-                            </span>
+                            <span className="signature_bar_chart_legend_desc">Показатель 3</span>
                         </div>
                     </div>
                 </div>
